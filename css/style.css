@@ -13,3 +13,9 @@
 	font-size: 22px;
 	margin-bottom: 5px;
 }
+
+#particles-js{ 
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+}
