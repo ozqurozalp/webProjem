@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Aleo);
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Aleo');
 @import url(https://use.fontawesome.com/releases/v5.7.2/css/all.css);
 .bg-renk {
     background: #F8D353;
@@ -6,10 +6,18 @@
     background: -moz-linear-gradient(top left, #F8D353, #FF5C5A);
     background: linear-gradient(top left, #F8D353, #FF5C5A);
 }
-
-
-.loginText{
-	font-family: 'Aleo';
+.fa-whatsapp {
+    color : #29a71a;
+}
+.pointer{
+    cursor: pointer;
+}
+.contact-text{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 4vw;
+}
+.fontlu-text{
+	font-family: 'Aleo', serif;;
 	font-size: 22px;
 	margin-bottom: 5px;
 }

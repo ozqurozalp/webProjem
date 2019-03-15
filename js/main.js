@@ -1,9 +1,10 @@
 $(function(){
 
-    $("#loginForm").submit(function(e){
+    $("#loginForm, #contactForm").submit(function(e){
         e.preventDefault();
     });
 
+    $('[data-toggle="tooltip"]').tooltip();
 });
 
 
