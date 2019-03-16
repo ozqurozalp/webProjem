@@ -36,8 +36,8 @@
         </nav>
         <!-- Menu -->
         <div class="row">
-            <div class="col-md-12">
-                <div class="card mb-3">
+            <div class="col-md-12 mb-2">
+                <div class="card">
                     <img src="img/article-img.png" class="card-img-top" alt="Özgür ÖZALP">
                     <div class="card-body">
                         <div class="p-3">
@@ -60,6 +60,50 @@
                                 <li>VueJs’i nasıl sitemizde kullanırız ?</li>
                             </ul>
                         </div>        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 mb-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="text-center yorumlar">Yorumlar</h1>
+                        <div class="media">
+                            <img src="img/avatar.png" width="75" class="align-self-start mr-3" alt="kullanıcı resmi">
+                            <div class="media-body">
+                                <h5 class="mt-0">Mustafa Görkem Güven</h5>
+                                <p>Çok güzel bir yazı olmuş devamını dört gözle bekliyorum..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="text-center yorumYap">Yorum Yap</h1>
+                        <form id="commentForm">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="name">Adınız</label>
+                                    <input type="text" id="name" class="form-control" placeholder="Adınızı Giriniz" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="surname">Soyadınız</label>
+                                    <input type="text" id="surname" class="form-control" placeholder="Soyadınız Giriniz" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="subject">Mail Adresiniz</label>
+                                    <input type="text" id="subject" class="form-control" placeholder="Mailinizi Giriniz" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="mesaj">Yorumunuz</label>
+                                    <textarea class="form-control" id="mesaj" rows="5" placeholder="Yorumunuzu Giriniz" required></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group float-right">
+                                <button class="btn btn-outline-info" type="submit">Yorum Yap</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
