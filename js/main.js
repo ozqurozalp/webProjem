@@ -1,6 +1,6 @@
 $(function(){
 
-    $("#loginForm, #contactForm").submit(function(e){
+    $("#loginForm, #contactForm, #commentForm").submit(function(e){
         e.preventDefault();
     });
 

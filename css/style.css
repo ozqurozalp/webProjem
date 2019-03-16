@@ -17,10 +17,21 @@
     font-size: 4vw;
 }
 .fontlu-text{
-	font-family: 'Aleo', serif;;
+	font-family: 'Aleo', serif;
 	font-size: 22px;
 	margin-bottom: 5px;
 }
+
+.yorumlar {
+    font-family: 'Aleo', serif;
+    font-size: 35px;
+}
+
+.yorumYap {
+    font-family: 'Aleo', serif;
+    font-size: 35px;
+}
+
 
 #particles-js{ 
     position: fixed;
