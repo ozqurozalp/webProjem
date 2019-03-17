@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Aleo');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Aleo|Roboto');
 @import url(https://use.fontawesome.com/releases/v5.7.2/css/all.css);
 .bg-renk {
     background: #F8D353;
     background: -webkit-linear-gradient(top left, #F8D353, #FF5C5A);
     background: -moz-linear-gradient(top left, #F8D353, #FF5C5A);
     background: linear-gradient(top left, #F8D353, #FF5C5A);
+}
+.pricing-card-title{
+    font-family: 'Roboto', sans-serif;
 }
 .fa-whatsapp {
     color : #29a71a;
