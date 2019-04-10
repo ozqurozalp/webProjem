@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro|Aleo|Roboto');
 @import url(https://use.fontawesome.com/releases/v5.7.2/css/all.css);
+body{
+    overflow-x: hidden;
+}
 .bg-renk {
     background: #F8D353;
     background: -webkit-linear-gradient(top left, #F8D353, #FF5C5A);
