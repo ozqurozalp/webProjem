@@ -89,17 +89,39 @@
         <div class="col-md-4 animated slideInRight">
             <div class="card mb-1">
                 <div class="card-body">
-                    <p class="fontlu-text">Kullanıcı Girişi</p>
-                    <form id="loginForm">
+                    <form id="loginForm" class="d-block">
+                        <p class="fontlu-text">Kullanıcı Girişi</p>
                         <div class="form-group mb-1">
                             <input type="text" class="form-control" placeholder="Kullanıcı Adı" required>
                         </div>
                         <div class="form-group mb-1">
                             <input type="password" class="form-control" placeholder="Parolanız" required>
                         </div>
-                        <div class="form-group text-right">
-                            <button class="btn btn-outline-success">
+                        <div class="form-group">
+                            <p class="float-left text-muted pointer ml-1 switch" id="login">Kayıt Oluştur</p>
+                            <button class="btn btn-outline-info float-right">
                                 Giriş Yap
+                            </button>
+                        </div>
+                    </form>
+                    <form id="registerForm" class="d-none">
+                        <p class="fontlu-text">Hesap Oluştur</p>
+                        <div class="form-group mb-1">
+                            <input type="text" class="form-control" placeholder="Kullanıcı Adı" required>
+                        </div>
+                        <div class="form-group mb-1">
+                            <input type="email" class="form-control" placeholder="E Posta Adresi" required>
+                        </div>
+                        <div class="form-group mb-1">
+                            <input type="password" class="form-control" placeholder="Parolanız" required>
+                        </div>
+                        <div class="form-group mb-1">
+                            <input type="password" class="form-control" placeholder="Parola Tekrarı" required>
+                        </div>
+                        <div class="form-group">
+                            <p class="float-left text-muted pointer ml-1 switch" id="register">Zaten Üyeyim</p>
+                            <button class="btn btn-outline-info float-right">
+                                Kayıt Ol
                             </button>
                         </div>
                     </form>
