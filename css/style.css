@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Aleo|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Aleo|Roboto|PT+Sans');
 @import url(https://use.fontawesome.com/releases/v5.7.2/css/all.css);
 body{
     overflow-x: hidden;
@@ -67,4 +67,8 @@ body{
     70% {
         transform: translateY(0) scale(1,1);
     }
+}
+
+.yeniFont{
+    font-family: 'PT Sans', sans-serif;
 }
