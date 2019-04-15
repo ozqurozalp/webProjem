@@ -20,20 +20,21 @@ $(function(){
             $("#registerForm").removeClass("d-block");
             $("#registerForm").addClass("d-none");
         }
-        // if($(this).parent().parent().parent().data("login-durum") == 1){
-        //     $("#registerForm").addClass("d-block");
-        //     $("#loginForm").addClass("d-none");
-        //     $(this).parent().parent().parent().data("login-durum", 0);
-        //     console.log($(".switch").parent().parent().parent().data("login-durum"));
-        // } else {
-        //
-        //     $("#loginForm").addClass("d-block");
-        //     $("#registerForm").addClass("d-none");
-        //     $(this).parent().parent().parent().data("login-durum", 1);
-        //     console.log($(".switch").parent().parent().parent().data("login-durum"));
-        // }
-
     });
+
+    $("#fiyatlar div.fiyat").hover(function () {
+        $("#fiyatlar  div.fiyat").removeClass("pulse");
+        $(this).addClass("pulse");
+        console.log("tıklandı")
+    });
+
+    // $("#logo").hover(function () {
+    //     $(this).addClass("tada");
+    //     let bu = $(this);
+    //     setTimeout(function () {
+    //         bu.removeClass("tada");
+    //     },2000);
+    // })
 
 });
 
