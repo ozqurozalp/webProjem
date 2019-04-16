@@ -1,19 +1,18 @@
+particlesJS.load('particles-js', 'js/config.json');
 $(function(){
 
-    $("#loginForm, #contactForm, #commentForm").submit(function(e){
+    $("#loginForm, #contactForm, #commentForm, #registerForm").submit(function(e){
         e.preventDefault();
     });
 
     $('[data-toggle="tooltip"]').tooltip();
 
     $(".switch").on('click', (e) => {
-        console.log(e.target.id);
         if(e.target.id == "login"){
             $("#loginForm").removeClass("d-block");
             $("#loginForm").addClass("d-none");
             $("#registerForm").removeClass("d-none");
             $("#registerForm").addClass("d-block");
-
         } else if(e.target.id == "register") {
             $("#loginForm").removeClass("d-none");
             $("#loginForm").addClass("d-block");
@@ -22,23 +21,16 @@ $(function(){
         }
     });
 
-    $("#fiyatlar div.fiyat").hover(function () {
-        $("#fiyatlar  div.fiyat").removeClass("pulse");
-        $(this).addClass("pulse");
-        console.log("tıklandı")
-    });
+    $("#fiyatlar div.fiyat").addClass("animated");
 
-    // $("#logo").hover(function () {
-    //     $(this).addClass("tada");
-    //     let bu = $(this);
-    //     setTimeout(function () {
-    //         bu.removeClass("tada");
-    //     },2000);
-    // })
+    $(".form-control").addClass("animated");
 
 });
 
+setInterval(() => {
+    console.log("%cI Love Eda", "color : #c54fa7; font-size: 3vw; font-family: 'Comic Sans MS';");
+    console.log("");
+},2500);
 
-particlesJS.load('particles-js', 'js/config.json', function() {
-    console.log('Uyarı - particles.js yüklendi...');
-});
+
+
